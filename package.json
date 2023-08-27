@@ -1,0 +1,44 @@
+{
+  "name": "expo-apollo-demo",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.8.1",
+    "@expo/webpack-config": "^18.0.1",
+    "@react-navigation/bottom-tabs": "^6.5.8",
+    "@react-navigation/native": "^6.1.7",
+    "@react-navigation/stack": "^6.3.17",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link": "^1.2.14",
+    "apollo-link-rest": "^0.9.0",
+    "expo": "^48.0.17",
+    "expo-status-bar": "~1.4.4",
+    "graphql": "^15.8.0",
+    "graphql-anywhere": "^4.2.8",
+    "graphql-tag": "^2.12.6",
+    "prettier": "^3.0.2",
+    "qs": "^6.11.2",
+    "react": "18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-native": "0.71.8",
+    "react-native-gesture-handler": "^2.12.1",
+    "react-native-vector-icons": "^10.0.0",
+    "react-native-web": "~0.18.10",
+    "styled-components": "^6.0.7",
+    "xcode": "^3.0.1",
+    "@react-native-masked-view/masked-view": "0.2.8",
+    "response-native-gesture-handler": "~2.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}

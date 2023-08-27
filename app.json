@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "expo-apollo-demo",
+    "slug": "expo-apollo-demo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+        "icon": "./assets/custom/icon.png",
+        "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/custom/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4A90E2"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 1500
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/custom/icon.png",
+        "backgroundColor": "#4A90E2"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
